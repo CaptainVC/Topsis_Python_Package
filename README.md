@@ -57,7 +57,7 @@ import pandas as pd
 import Topsis_Vyom_101917060
 
 data = pd.read_csv(input_data_path)
-dataset = build_topsis(data,,weights,impacts)
+dataset = build_topsis(data,weights,impacts)
 print(dataset)
 ```  
 
